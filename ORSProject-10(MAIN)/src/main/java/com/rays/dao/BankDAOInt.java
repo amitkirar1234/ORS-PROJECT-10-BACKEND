@@ -6,3 +6,4 @@ import com.rays.dto.BankDTO;
 public interface BankDAOInt extends BaseDAOInt<BankDTO> {
 
 }
+  

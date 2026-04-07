@@ -7,6 +7,6 @@ import com.rays.dao.BankDAOInt;
 import com.rays.dto.BankDTO;
 
 @Service
-public class BankServiceImpl extends BaseServiceImpl<BankDTO, BankDAOInt> implements BankServiceInt {
+public class BankServiceImpl extends BaseServiceImpl<BankDTO, BankDAOInt> implements BankServiceInt {  
 
 }

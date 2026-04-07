@@ -10,6 +10,6 @@ import com.rays.service.BankServiceInt;
 
 @RestController
 @RequestMapping(value = "Bank")
-public class BankCtl extends BaseCtl<BankForm, BankDTO, BankServiceInt> {
+public class BankCtl extends BaseCtl<BankForm, BankDTO, BankServiceInt> {   
 
 }

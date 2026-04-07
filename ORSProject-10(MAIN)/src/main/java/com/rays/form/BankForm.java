@@ -7,7 +7,7 @@ import com.rays.common.BaseDTO;
 import com.rays.common.BaseForm;
 import com.rays.dto.BankDTO;
 
-public class BankForm extends BaseForm {
+public class BankForm extends BaseForm {  
 
 	@NotEmpty(message = "account code is required") 
 	private String accountCode;

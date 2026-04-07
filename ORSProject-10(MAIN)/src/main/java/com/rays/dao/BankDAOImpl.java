@@ -13,7 +13,7 @@ import com.rays.common.BaseDAOImpl;
 import com.rays.dto.BankDTO;
 
 @Repository
-public class BankDAOImpl extends BaseDAOImpl<BankDTO> implements BankDAOInt {
+public class BankDAOImpl extends BaseDAOImpl<BankDTO> implements BankDAOInt {  
 
 	@Override
 	public Class<BankDTO> getDTOClass() {
