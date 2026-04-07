@@ -9,7 +9,7 @@ import com.rays.dto.BankDTO;
 
 public class BankForm extends BaseForm {
 
-	@NotEmpty(message = "account code is required")
+	@NotEmpty(message = "account code is required") 
 	private String accountCode;
 
 	@NotEmpty(message = "accountholder name is required")

@@ -10,7 +10,7 @@ import com.rays.common.BaseDTO;
 @Table(name = "st_bank")
 public class BankDTO extends BaseDTO {
 
-	@Column(name = "AccountCode")
+	@Column(name = "AccountCode")   
 	private String accountCode;
 	
 	@Column(name = "AccountHolderName")
